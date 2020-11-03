@@ -1,0 +1,94 @@
+@import url('../node_modules/font-awesome/css/font-awesome.min.css');
+ 
+ h2 {
+    margin-top:0;
+    font-weight: 700;
+    font-family: 'Akkurat Bold';
+    text-transform: initial;
+    font-size: 2.4em;
+    color: #333333;
+    -webkit-font-smoothing: antialiased;
+ }
+
+ @font-face{
+    font-family: "Akkurat Bold";
+    src: url("Akkurat.ttf") format("truetype");
+  }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .LeftPart{
+    width: 50%;
+}
+.LeftPart img{
+    width: 100%;
+    align-self: center;
+}
+
+
+
+#logo{
+    position: relative;
+    top: 0;
+    left: 0px;
+    right: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+.RightPart{
+    width: 50%;
+}
+
+
+
+#iphone{
+    width: 30%;
+    padding-left: 1.5%;
+}
+
+.header{
+
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+ .motoLP_panel6_text{
+    font-family: 'Akkurat Bold' !important;
+    font-size: 15px;
+    text-transform: initial;
+    margin:0;
+
+ }
+
+ .fa-ul{
+    display: block;
+    font-family: 'Akkurat Bold' !important;
+    text-transform: initial;
+    font-size: 15px;
+ }
+
+.apple{
+    margin-right: 25px;
+}
+
+ #platform{
+    margin-top: 18px;
+    position: relative;
+    width: 30%;
+ }
+/* Make it full from iPad Landscape Version  */
+ @media (max-width: 1024px) {
+    .container .RightPart{
+        width: 100%;
+    }
+
+    .motoLP_panel6_text{
+        padding-bottom: 30px;
+    }
+
+    .container .LeftPart{
+        width: 100%;
+    }
+ }
